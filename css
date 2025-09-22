@@ -1,0 +1,86 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif; /* Custom font */
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header and Footer */
+.header-footer {
+    background-color: #4CAF50; /* Different color */
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    margin: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+}
+
+/* Container for main + sidebar */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Main Content */
+.main-content {
+    width: 60%; /* Percentage width */
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%; /* Percentage width */
+    background-color: #ffcc99; /* Different color */
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+    background-color: #ff9966;
+}
+
+/* Form Textbox focus */
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    transition: width 0.3s;
+}
+
+input[type="text"]:focus {
+    width: 250px;
+}
+
+/* Form select and submit */
+select, input[type="submit"] {
+    padding: 5px;
+    margin-top: 5px;
+}
